@@ -1,0 +1,140 @@
+---
+title: "Data Analysis Template"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+## Import Packages and Libraries
+
+```{r load-packages, message = FALSE}
+library(ggplot2)
+library(dplyr)
+library(statsr)
+library(tidyr)
+library(rmarkdown)
+```
+
+
+* * *
+
+## (P)ACE - Plan Phase
+### Part 1 - Data
+#### How were the observations in the dataset collected?
+
+
+
+* * *
+
+### Part 2 - Research Question
+#### Project Scope
+
+
+
+* * *
+## P(A)CE - Analyze Phase
+### Part 3 - EDA (Exploratory Data Analysis)
+#### Investigate the Dataset
+
+```{r eda_1}
+
+```
+
+##### Descriptive Statistics
+```{r eda_2}
+
+```
+
+##### Pairplot to visualize relationships between pairs of variables
+```{r eda_3}
+
+```
+
+#### Data Manipulation and Cleaning
+```{r eda_4}
+
+```
+
+
+##### Initial Insights
+```{r eda_5}
+
+```
+
+#### Check Statistical Test Conditions/Assumptions (If Applicable)
+```{r eda_6}
+
+```
+
+* * *
+
+## PA(C)E - Construct Phase of the PACE Framework
+### Part 4 - Modeling/Inference 
+
+H0 (nothing going on):
+HA (something going on):
+
+#### Create a Hold-Out Sample (If Applicable)
+```{r modeling_inference_1}
+
+```
+
+
+#### Build and Fit The Model (If Applicable)
+```{r modeling_inference_2}
+
+```
+
+#### Run Statistical Tests (If Applicable)
+```{r modeling_inference_3}
+
+```
+
+#### Check Model Conditions/Assumptions Post Model Construction (If Applicable)
+
+```{r modeling_inference_4}
+
+```
+
+##### Linearity
+
+```{r modeling_inference_5}
+
+```
+
+##### Independent Observations
+
+```{r modeling_inference_6}
+
+```
+
+##### Normality
+
+```{r modeling_inference_6}
+
+```
+
+##### Homoscedasticity
+
+```{r modeling_inference_7}
+
+```
+
+##### No Multicollinearity (If Applicable)
+
+```{r modeling_inference_8}
+
+```
+
+* * *
+
+### Part 5 - Prediction/Conclusion
+```{r modeling_inference_9}
+
+```
+
+## PAC(E)- Execute Phase of the PACE Framework
+### What Story does the Data Tell?
+
